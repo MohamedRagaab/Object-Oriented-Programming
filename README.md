@@ -128,7 +128,7 @@ The code is separated into three files.
 ### Example 
 
 * Header_File.h
-```
+```c++
 #ifndef RECTANGLE_H  // Gard Header
 #def RECTANGLE_H
 
@@ -147,7 +147,7 @@ Class Rectangle{
 
 ```
 * Implementation_File.cpp
-```
+```c++
 Rectangle::Float Length;
 Rectangle::Float Width;
 
@@ -178,7 +178,7 @@ Rectangle::float getArea(){
 ### Example 
 
 * Header_File.h
-```
+```c++
 #ifndef RECTANGLE_H  // Gard Header
 #def RECTANGLE_H
 
@@ -198,7 +198,7 @@ Class Rectangle{
 
 ```
 * Implementation_File.cpp
-```
+```c++
 Rectangle::Float Length;
 Rectangle::Float Width;
 
@@ -241,14 +241,14 @@ It is a two or more methods in a class may have the same name as long as the hav
 
 ### Constructor Overloading 
 We can also include two constructor in one class
-```
+```c++
 Rectangle();
 Rectangle(int l, int w);
 
 ```
 ### The Default Copy Constructor
 Create a new object with the same properties value of another object 
-```
+```c++
 Rectangle rect1(1,2);
 Rectangle rect2(rect1);   // Copy Constructor 
 Rectangle rect2 = rect1;  // Copy Constructor 
@@ -259,7 +259,7 @@ Rectangle rect2 = rect1;  // Copy Constructor
 ## Passing Objects as a method arguments
 We can use class the same as we use a datatype we just create a function that will return a Rectangle and pass Rectangle objects as arguments.
 
-```
+```c++
 Rectangle Merge (Rectangle rect1, Rectangle rect2){
 
 }
