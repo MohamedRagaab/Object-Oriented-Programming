@@ -1,7 +1,7 @@
 # Object Oriented Programming (OOP)
 # Content
 * [Definition](#Definition)
-* [Programing Paradigms](#Programing Paradigms)
+* [Definition](#Programing-Paradigms)
 * [Object](#Object)
 * [Class](#Class)
 ### Definition
