@@ -64,7 +64,7 @@ A rectangle Class will have the following fields:
         * getArea()
 
 * Header_File.h
-```
+```c++
 #ifndef RECTANGLE_H  // Gard Header
 #def RECTANGLE_H
 
@@ -80,9 +80,9 @@ Class Rectangle{
             float getArea();
 }
 
-```c++
-* Implementation_File.cpp
 ```
+* Implementation_File.cpp
+```c++
 Rectangle::float Length;
 Rectangle::float Width;
 
