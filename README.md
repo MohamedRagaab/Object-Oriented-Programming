@@ -260,6 +260,18 @@ Rectangle rect2(rect1);   // Copy Constructor
 Rectangle rect2 = rect1;  // Copy Constructor 
 ```
 ##### Custom Copy Constructor
+* Implementation_File.cpp
+```c++
+Rectangle::Rectangle(Rectangle &rect){
+   Length = rect.Length;
+   Width = rect.Width;
+}
+```
+* main.cpp
+```c++
+Rectangle rect1(10,5);
+Rectangle rect2(rect1);
+```
 Copy constructor is called when a new object is created from an existing object, as a copy of the existing object.
 ##### Copy assignment operator
 Assignment operator is called when an already initialized object is assigned a new value from another existing object. 
