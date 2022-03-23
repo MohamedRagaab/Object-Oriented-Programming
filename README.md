@@ -251,15 +251,20 @@ Rectangle();
 Rectangle(int l, int w);
 
 ```
-#### The Default Copy Constructor
+#### Copy Constructor
+##### The Default Copy Constructor
 Create a new object with the same properties value of another object 
 ```c++
 Rectangle rect1(1,2);
 Rectangle rect2(rect1);   // Copy Constructor 
 Rectangle rect2 = rect1;  // Copy Constructor 
 ```
-#### Operator Overloading
+##### Custom Copy Constructor
+Copy constructor is called when a new object is created from an existing object, as a copy of the existing object.
+##### Copy assignment operator
+Assignment operator is called when an already initialized object is assigned a new value from another existing object. 
 
+#### Operator Overloading
 
 ### Passing Objects as a method arguments
 We can use class the same as we use a datatype we just create a function that will return a Rectangle and pass Rectangle objects as arguments.
